@@ -62,6 +62,7 @@ jQuery(window).load(function() {
 	$(".testimonial-image img").attr("style", "width: auto !important; height: auto !important;");
 	
 	$('.start').on('click', function() {
+		$('.action-buttons').hide();
 		$('.signup-form').fadeIn('slow');
 	});
 });

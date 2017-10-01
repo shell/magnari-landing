@@ -96,7 +96,7 @@ img { max-width: 100%; }
 }
 
 .section-description {
-	margin-top: 60px;
+	margin-top: 40px;
     padding-bottom: 10px;
 }
 
@@ -171,7 +171,7 @@ ul.navbar-nav {
 	color: #ffffff;
 	font-size: 10px;
 	position: relative;
-	top: -80px;
+	top: -70px;
 	left: 75px;
 }
 
@@ -180,8 +180,8 @@ ul.navbar-nav {
 .navbar-inverse ul.navbar-nav li a:focus { color: #fff; outline: 0; opacity: 1; }
 
 .navbar-brand {
-	width: 100px;
-	height: 67px;
+	width: 114px;
+	height: 49px;
 	background: url(../img/logo-icon.png) left center no-repeat;
 	text-indent: -99999px;
 	zoom: 1.5;
@@ -193,7 +193,7 @@ ul.navbar-nav {
 }
 
 .navbar-header {
-	height: 100px;
+	height: 90px;
 }
 
 
@@ -235,6 +235,12 @@ ul.navbar-nav {
 	width: 50%;
 }
 
+img.feature-img {
+	border-radius: 20px;
+	margin-top: 20px;
+	height: 430px;
+}
+
 /***** Features *****/
 
 .features-box {
@@ -270,7 +276,7 @@ ul.navbar-nav {
 }
 
 .more-features-box {
-	margin-top: 30px;
+	margin-top: 0px;
 	margin-bottom: 20px;
 }
 
@@ -395,19 +401,19 @@ ul.navbar-nav {
 	margin-top: 30px;
 }
 
-.testimonial-list .nav-tabs {
+.great-support-box .nav-tabs {
 	margin-top: 30px;
     border: 0;
 }
 
-.testimonial-list .nav-tabs li {
+.great-support-box .nav-tabs li {
 	float: none;
 	display: inline-block;
 	margin-left: 5px;
     margin-right: 5px;
 }
 
-.testimonial-list .nav-tabs li a {
+.great-support-box .nav-tabs li a {
     width: 14px;
     height: 14px;
     padding: 0;
@@ -416,9 +422,13 @@ ul.navbar-nav {
     -moz-border-radius: 0; -webkit-border-radius: 0; border-radius: 0;
 }
 
-.testimonial-list .nav-tabs li a:hover { border: 0; background: #66d6c5; }
-.testimonial-list .nav-tabs li.active a { background: #66d6c5; }
-.testimonial-list .nav-tabs li.active a:focus { border: 0; }
+.great-support-box.image-slider {
+	margin-top: 55px;
+}
+
+.great-support-box .nav-tabs li a:hover { border: 0; background: #66d6c5; }
+.great-support-box .nav-tabs li.active a { background: #66d6c5; }
+.great-support-box .nav-tabs li.active a:focus { border: 0; }
 
 
 /***** Call to action *****/
