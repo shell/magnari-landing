@@ -426,6 +426,10 @@ img.feature-img {
 	margin-top: 55px;
 }
 
+.great-support-box .testimonial-image img {
+	border-radius: 10px;
+}
+
 .great-support-box .nav-tabs li a:hover { border: 0; background: #66d6c5; }
 .great-support-box .nav-tabs li.active a { background: #66d6c5; }
 .great-support-box .nav-tabs li.active a:focus { border: 0; }

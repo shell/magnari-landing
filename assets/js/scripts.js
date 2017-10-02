@@ -59,7 +59,7 @@ jQuery(window).load(function() {
 	/*
 		Hidden images
 	*/
-	$(".testimonial-image img").attr("style", "width: auto !important; height: auto !important;");
+	$(".testimonial-image img").attr("style", "width: auto !important; height: 250px");
 	
 	$('.start').on('click', function() {
 		$('.action-buttons').hide();
