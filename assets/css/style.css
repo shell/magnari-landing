@@ -171,8 +171,8 @@ ul.navbar-nav {
 	color: #ffffff;
 	font-size: 10px;
 	position: relative;
-	top: -70px;
-	left: 75px;
+	top: -50px;
+	left: 65px;
 }
 
 .navbar-inverse ul.navbar-nav li a { padding-top: 20px; padding-bottom: 20px; color: #fff; opacity: 0.8; }
@@ -185,6 +185,7 @@ ul.navbar-nav {
 	background: url(../img/logo-icon.png) left center no-repeat;
 	text-indent: -99999px;
 	zoom: 1.5;
+	background-size: 100%;
 }
 
 .navbar-toggle {

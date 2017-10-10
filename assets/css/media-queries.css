@@ -72,6 +72,12 @@ only screen and (                min-resolution: 2dppx) {
 	/* logo */
     .navbar-brand {
     	background-image: url(../img/logo-icon@2x.png) !important; background-repeat: no-repeat !important; background-size: 100px 67px !important;
-    }
+	}
 	
+	.beta {
+		position: relative;
+		top: -65px;
+		left: 70px;
+	}
+
 }
